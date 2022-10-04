@@ -25,6 +25,8 @@
                 flex-direction: column;
                 padding: 7rem 0 7rem 0;
 
+                overflow: hidden;
+
                 .content{
                     width:100%;
                 }
@@ -85,3 +87,35 @@
         }
     }
 }
+
+
+//
+//  max 991
+//  _____________________________________________
+
+@media(max-width: 991px){
+
+    .cg-above-footer-2 {
+
+        .block {
+            &.usps {
+
+                .usp-container {
+                    flex-direction: column;
+
+                    &-item{
+                        width: 90%;
+                        max-width: 510px;
+                        align-items: center;
+                        margin-bottom: 6rem;
+
+                        &:last-of-type{
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
