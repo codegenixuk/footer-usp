@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+
+        <tab id="codegenixuk" translate="label" sortOrder="999">
+            <label>Codegenixuk</label>
+        </tab>
+
+        <section id="codegenixuk_footerusp" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+
+            <class>separator-top</class>
+
+            <label>Footer USP</label>
+
+            <tab>codegenixuk</tab>
+
+            <resource>Codegenixuk_FooterUsp::footerusp_config</resource>
+
+            <group id="cg_footerusp" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+
+                <label>Enable</label>
+
+                <field id="enable" translate="label" type="select" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enable Footer Usp</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+
+            </group>
+
+
+            <group id="block1" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+
+                <label>Block 1</label>
+
+                <field id="enabled" translate="label" type="select" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enable Block</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+
+                <field id="icon" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Font Awesome Icon Code</label>
+                    <comment>eg. fa-regular fa-folder</comment>
+                </field>
+
+                <field id="title" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Heading text</label>
+                    <comment>eg. Lorem Ipsum</comment>
+                </field>
+
+                <field id="introText" translate="label" type="textarea" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Intro Text</label>
+                    <comment>Note: No HTML, eg. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt .</comment>
+                </field>
+
+                <field id="linkUrl" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Url of page</label>
+                    <comment>eg. https://www.google.com</comment>
+                </field>
+
+                <field id="linkText" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Link Text</label>
+                    <comment>eg. Google</comment>
+                </field>
+
+            </group>
+
+            <group id="block2" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+
+                <label>Block 2</label>
+
+                <field id="enabled" translate="label" type="select" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enable Block</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+
+                <field id="icon" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Font Awesome Icon Code</label>
+                    <comment>eg. fa-regular fa-folder</comment>
+                </field>
+
+                <field id="title" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Heading text</label>
+                    <comment>eg. Lorem Ipsum</comment>
+                </field>
+
+                <field id="introText" translate="label" type="textarea" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Intro Text</label>
+                    <comment>Note: No HTML, eg. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt .</comment>
+                </field>
+
+                <field id="linkUrl" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Url of page</label>
+                    <comment>eg. https://www.google.com</comment>
+                </field>
+
+                <field id="linkText" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Link Text</label>
+                    <comment>eg. Google</comment>
+                </field>
+
+            </group>
+
+            <group id="block3" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+
+                <label>Block 3</label>
+
+                <field id="enabled" translate="label" type="select" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enable Block</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+
+                <field id="icon" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Font Awesome Icon Code</label>
+                    <comment>eg. fa-regular fa-folder</comment>
+                </field>
+
+                <field id="title" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Heading text</label>
+                    <comment>eg. Lorem Ipsum</comment>
+                </field>
+
+                <field id="introText" translate="label" type="textarea" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Intro Text</label>
+                    <comment>Note: No HTML, eg. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt .</comment>
+                </field>
+
+                <field id="linkUrl" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Url of page</label>
+                    <comment>eg. https://www.google.com</comment>
+                </field>
+
+                <field id="linkText" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Link Text</label>
+                    <comment>eg. Google</comment>
+                </field>
+
+            </group>
+
+
+
+        </section>
+
+    </system>
+
+</config>
+

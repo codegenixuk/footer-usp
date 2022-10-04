@@ -1,0 +1,38 @@
+<?php
+$helper = $this->helper('Codegenixuk\FooterUsp\Helper\Data');
+?>
+
+<div class="block usps">
+
+    <div class="content">
+
+        <ul class="usp-container">
+
+            <?php foreach ([1,2,3] as $block): ?>
+
+                <?php $key = 'block' . $block; ?>
+
+                <?php if ($helper->getBlockEnable($key)) : ?>
+
+                    <li class="usp-container-item">
+
+                        <?= $helper->getIcon($key); ?>
+
+                        <?= $helper->getTitle($key); ?>
+
+                        <?= $helper->getIntro($key); ?>
+
+                        <?= $helper->getLink($key); ?>
+
+                    </li>
+
+                <?php endif; ?>
+
+            <?php endforeach; ?>
+
+        </ul>
+
+    </div>
+
+</div>
+
